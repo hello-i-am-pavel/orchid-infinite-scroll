@@ -1,0 +1,24 @@
+{
+    "name": "hello-i-am-pavel/orchid-infinite-scroll",
+    "description": "Infinite scroll for Laravel Orchid tables",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Hiap\\OrchidInfiniteScroll\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Hiap\\OrchidInfiniteScroll\\HiapOrchidInfiniteScrollServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": "^8.1",
+        "orchid/platform": "^14.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
