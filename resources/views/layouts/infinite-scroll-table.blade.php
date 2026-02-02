@@ -7,7 +7,7 @@
         <em>{{ __('Loading...') }}</em>
     </div>
     <div class="text-center p-3">
-        <button type="button" id="load-more-button" class="btn btn-link">
+        <button type="button" id="load-more-button" class="btn icon-link btn-secondary>
             {{ __('Load more') }}
         </button>
     </div>
